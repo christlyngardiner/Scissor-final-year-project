@@ -1,6 +1,4 @@
-# sc-template
-
-Personal template for React projects
+# Scissor final project
 
 ## Tests
 

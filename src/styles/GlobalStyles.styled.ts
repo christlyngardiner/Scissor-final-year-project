@@ -21,26 +21,13 @@ export const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
     }
 
-    html {
-        /* scroll-behavior: smooth; */ // for faster scroll to top during page transitions
-        /* height: 100%; */ // Lenis needs this to be auto
-    }
-
     body {
         min-height: 100%;
         background-color: ${theme.colors.white};
         font-family: ${theme.fonts.primary};
         font-size: ${rem(16)};
-        line-height: 1.5;
+        line-height: 1.6;
         overflow-x: hidden;
-    }
-
-    h1, h2 {
-        line-height: 1.1;
-    }
-
-    h3, h4, h5, h6 {
-        line-height: 1.2;
     }
 
     img, iframe {

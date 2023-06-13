@@ -4,6 +4,6 @@ import { rem } from "../Utilities.styled";
 
 
 export const Container = styled.div`
-  width: min(90%, ${rem(1250)}); // approximately according to design
+  width: min(90%, ${rem(1200)});
   margin: 0 auto;
 `;

@@ -63,8 +63,7 @@ export const bp = {
   medium: `${rem(1024, true)}em`, // large tablets/small laptops
   large1: `${rem(1200, true)}em`, // medium-sized laptops
   large2: `${rem(1440, true)}em`, // large-sized laptops
-  large3: `${rem(1600, true)}em`,
-  large4: `${rem(1920, true)}em`,
+  large3: `${rem(1920, true)}em`,
   extreme: `${rem(2100, true)}em`,
 };
 
@@ -75,32 +74,22 @@ export const mq = {
   large1: `min-width: ${bp.large1}`,
   large2: `min-width: ${bp.large2}`,
   large3: `min-width: ${bp.large3}`,
-  large4: `min-width: ${bp.large4}`,
   extreme: `min-width: ${bp.extreme}`,
 };
 
 export const theme = {
   colors: {
-    primary400: "",
+    primary100: "hsla(216, 100%, 60%, 1)",
+    primary300: "hsla(216, 100%, 50%, 1)",
+    primary400: "hsla(216, 100%, 44%, 1)",
 
     // NEUTRAL
     white: "hsl(0, 0%, 100%)",
-    black: "hsl(0, 0%, 0%)",
-    gray100: "	hsl(220, 23%, 97%)",
-    gray200: "hsl(0, 0%, 77%)",
-    gray300: "hsl(0, 0%, 50%)",
-    gray700: "hsl(0, 0%, 12%)",
+    black: "hsl(0, 0%, 8%)",
   },
   fonts: {
     primary: `'Poppins', sans-serif`,
     accent: `serif`,
-  },
-  ease: {
-    // easing functions
-    slowStart: "cubic-bezier(0.52, 0.01, 0, 1)",
-    quickStartAndEnd: "cubic-bezier(0.19, 1, 0.22, 1)",
-    almostLinear: "cubic-bezier(0.4,0.6,0.6,1)",
-    textReveal: "cubic-bezier(0.77, 0, 0.175, 1)",
   },
   borderRadius: {
     small: rem(5),
@@ -157,9 +146,3 @@ export const size = (width: string, height = width) => {
     height: ${height};
   `;
 };
-
-export const textRevealFromBottom = keyframes`
-  to {
-    transform: translateY(0%) skewY(0);
-}
-`;
