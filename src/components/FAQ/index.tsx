@@ -28,37 +28,37 @@ export const FAQ = () => {
           </li>
           <li className="faqs-item">
             <div className="header">
-              <h3>How does URL shortening work?</h3>
+              <h3>Are the shortened links permanent? Will they expire?</h3>
               <PlusIcon />
             </div>
           </li>
           <li className="faqs-item">
             <div className="header">
-              <h3>How does URL shortening work?</h3>
+              <h3>Can i customize the shortened URLs to reflect my brand or content?</h3>
               <PlusIcon />
             </div>
           </li>
           <li className="faqs-item">
             <div className="header">
-              <h3>How does URL shortening work?</h3>
+              <h3>Is it necessary to create an account to use the URL shortening service?</h3>
               <PlusIcon />
             </div>
           </li>
           <li className="faqs-item">
             <div className="header">
-              <h3>How does URL shortening work?</h3>
+              <h3>Are there any limitations on the number of URLs i could shorten?</h3>
               <PlusIcon />
             </div>
           </li>
           <li className="faqs-item">
             <div className="header">
-              <h3>How does URL shortening work?</h3>
+              <h3>Can i track the performance of my URL?</h3>
               <PlusIcon />
             </div>
           </li>
           <li className="faqs-item">
             <div className="header">
-              <h3>How does URL shortening work?</h3>
+              <h3>What is a QR code and what can it do?</h3>
               <PlusIcon />
             </div>
           </li>
