@@ -1,5 +1,7 @@
+import { FAQ } from "@components/FAQ";
 import { Hero } from "@components/Hero";
 import { Navbar } from "@components/Navbar";
+import { PreFooter } from "@components/PreFooter";
 import { Statistics } from "@components/Statistics";
 import { TrimURL } from "@components/TrimURL";
 import { WhyScissors } from "@components/WhyScissors";
@@ -16,6 +18,8 @@ export const App = () => {
       <Statistics />
       <WhyScissors />
       <TrimURL />
+      <FAQ />
+      <PreFooter />
     </>
   );
 };

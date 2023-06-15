@@ -48,7 +48,7 @@ export const StyledWhyScissors = styled.section`
       }
 
       p {
-        margin-top: 1rem;
+        margin-top: 0.5rem;
         max-width: 30ch;
       }
     }

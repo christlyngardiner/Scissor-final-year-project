@@ -80,6 +80,7 @@ export const mq = {
 export const theme = {
   colors: {
     primary100: "hsla(216, 100%, 60%, 1)",
+    primary200: "hsla(216, 100%, 64%, 1)",
     primary300: "hsla(216, 100%, 50%, 1)",
     primary400: "hsla(216, 100%, 44%, 1)",
 
