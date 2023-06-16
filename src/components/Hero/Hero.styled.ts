@@ -1,10 +1,40 @@
 import styled from "styled-components";
 
-import { alignItemsCenter, rem } from "@styles/Utilities.styled";
+import { alignItemsCenter, rem, size } from "@styles/Utilities.styled";
 
 
 export const StyledHero = styled.section`
   margin-top: 8rem;
+  position: relative;
+
+  .blur {
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    filter: blur(270px);
+
+    &-1 {
+      top: -10rem;
+      left: 20vw;
+      ${size(rem(215))}
+      background-color: hsl(0, 95%, 43%);
+    }
+
+    &-2 {
+      top: -10rem;
+      left: 40vw;
+      ${size(rem(215))}
+      background-color: hsla(121, 90%, 25%, 1);
+    }
+
+    &-3 {
+      top: 0rem;
+      right: 6rem;
+      ${size(rem(300))}
+      background-color: hsla(50, 83%, 52%, 1);
+      filter: blur(320px);
+    }
+  }
 
   .main-heading {
     line-height: 1.5;
@@ -34,6 +64,12 @@ export const StyledHero = styled.section`
     ${alignItemsCenter}
     gap: 3rem;
     width: fit-content;
+    margin-top: 4rem;
+    margin-inline: auto;
+  }
+
+  .decor-1 {
+    width: ${rem(700)};
     margin-top: 4rem;
     margin-inline: auto;
   }

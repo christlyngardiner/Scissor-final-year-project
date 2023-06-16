@@ -1,4 +1,4 @@
-import { css, keyframes } from "styled-components";
+import { css } from "styled-components";
 
 /**
  * Helper function to convert from px to rem (1rem = 16px by browser default).

@@ -4,6 +4,8 @@ import { ColoredText } from "@styles/components/ColoredText.styled";
 import { Container } from "@styles/components/Container.styled";
 import { SectionText } from "@styles/components/SectionText.styled";
 
+import HeroImageBottom from "@assets/hero-image-bottom.png";
+import HeroImageTop from "@assets/hero-image-top.png";
 import { ReactComponent as Stroke } from "@assets/stroke.svg";
 
 import { StyledHero } from "./Hero.styled";
@@ -12,6 +14,9 @@ import { StyledHero } from "./Hero.styled";
 export const Hero = () => {
   return (
     <StyledHero>
+      <div className="blur blur-1" aria-hidden></div>
+      <div className="blur blur-2" aria-hidden></div>
+      <div className="blur blur-3" aria-hidden></div>
       <Container>
         <h1 className="main-heading">
           Optimize Your Online Experience with Our Advanced{" "}
@@ -32,6 +37,9 @@ export const Hero = () => {
           <TertiaryButton>Learn More</TertiaryButton>
         </div>
       </Container>
+
+      <img className="decor-1" src={HeroImageTop} alt="" />
+      <img src={HeroImageBottom} alt="" />
     </StyledHero>
   );
 };

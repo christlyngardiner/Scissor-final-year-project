@@ -6,7 +6,6 @@ import BgImage2 from "@assets/bg-2.png";
 export const StyledPreFooter = styled.section`
   padding-top: 7rem;
   padding-bottom: 3rem;
-  margin-top: 8rem;
   background: url(${BgImage2}) no-repeat center / cover;
   text-align: center;
 

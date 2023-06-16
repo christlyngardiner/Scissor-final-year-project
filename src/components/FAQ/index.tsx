@@ -1,6 +1,8 @@
 import { Container } from "@styles/components/Container.styled";
 import { SectionHeading } from "@styles/components/SectionHeading.styled";
 
+import DecorImageLeft from "@assets/faq-decor-left.png";
+import DecorImageRight from "@assets/faq-decor-right.png";
 import { ReactComponent as MinusIcon } from "@assets/minus.svg";
 import { ReactComponent as PlusIcon } from "@assets/plus.svg";
 
@@ -10,6 +12,7 @@ import { StyledFAQ } from "./FAQ.styled";
 export const FAQ = () => {
   return (
     <StyledFAQ>
+      <img src={DecorImageLeft} alt="" className="decor decor-1" />
       <Container>
         <SectionHeading>FAQs</SectionHeading>
 
@@ -34,19 +37,27 @@ export const FAQ = () => {
           </li>
           <li className="faqs-item">
             <div className="header">
-              <h3>Can i customize the shortened URLs to reflect my brand or content?</h3>
+              <h3>
+                Can i customize the shortened URLs to reflect my brand or
+                content?
+              </h3>
               <PlusIcon />
             </div>
           </li>
           <li className="faqs-item">
             <div className="header">
-              <h3>Is it necessary to create an account to use the URL shortening service?</h3>
+              <h3>
+                Is it necessary to create an account to use the URL shortening
+                service?
+              </h3>
               <PlusIcon />
             </div>
           </li>
           <li className="faqs-item">
             <div className="header">
-              <h3>Are there any limitations on the number of URLs i could shorten?</h3>
+              <h3>
+                Are there any limitations on the number of URLs i could shorten?
+              </h3>
               <PlusIcon />
             </div>
           </li>
@@ -64,6 +75,7 @@ export const FAQ = () => {
           </li>
         </ul>
       </Container>
+      <img src={DecorImageRight} alt="" className="decor decor-2" />
     </StyledFAQ>
   );
 };

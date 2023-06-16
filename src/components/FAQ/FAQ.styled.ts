@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 import {
-  alpha,
   flexColumn,
   flexSpBetween,
   pseudo,
@@ -11,7 +10,26 @@ import {
 
 
 export const StyledFAQ = styled.section`
-  margin-top: 3rem;
+  position: relative;
+  padding-top: 3rem;
+  padding-bottom: 8rem;
+  overflow: hidden;
+
+  .decor {
+    position: absolute;
+
+    &-1 {
+      top: 0;
+      left: 0;
+      width: ${rem(300)};
+    }
+
+    &-2 {
+      bottom: -20rem;
+      right: 0;
+      width: ${rem(300)};
+    }
+  }
 
   h2 {
     width: fit-content;
