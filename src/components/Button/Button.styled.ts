@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { theme } from "@styles/Utilities.styled";
 
 
-export const StyledPrimaryButton = styled.a`
+export const StyledPrimaryButton = styled.button`
   padding: 0.8em 2.7em;
   color: ${theme.colors.white};
   font-weight: 500;

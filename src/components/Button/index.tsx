@@ -1,3 +1,5 @@
+import { ButtonHTMLAttributes } from "react";
+
 import { StyledPrimaryButton, StyledTertiaryButton } from "./Button.styled";
 
 
@@ -6,9 +8,13 @@ type ButtonProps = {
   className?: string;
 };
 
-export const PrimaryButton = ({ children, className }: ButtonProps) => {
+export const PrimaryButton = ({
+  children,
+  className,
+  ...rest
+}: ButtonProps & ButtonHTMLAttributes<HTMLButtonElement>) => {
   return (
-    <StyledPrimaryButton href="/" className={className}>
+    <StyledPrimaryButton className={className} {...rest}>
       {children}
     </StyledPrimaryButton>
   );
