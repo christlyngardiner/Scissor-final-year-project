@@ -37,119 +37,106 @@ export const Footer = () => {
             <li>
               <a href="/">Pricing</a>
             </li>
+      </ul>
+          <ul className="col">
+            <li className="col-heading">Solutions</li>
             <li>
-              <a href="/">Pricing</a>
+              <a href="/">Social Media</a>
             </li>
             <li>
-              <a href="/">Pricing</a>
+              <a href="/">Digital Marketing</a>
+            </li>
+            <li>
+              <a href="/">Customer Service</a>
+            </li>
+            <li>
+              <a href="/">For Developers</a>
+            </li>
+            
+          </ul>
+          <ul className="col">
+            <li className="col-heading">Products</li>
+            <li>
+              <a href="/">Link Management</a>
+            </li>
+            <li>
+              <a href="/">QR codes</a>
+            </li>
+            <li>
+              <a href="/">Link in bio</a>
+            </li>
+        
+         </ul>
+          <ul className="col">
+            <li className="col-heading">Company</li>
+            <li>
+              <a href="/">About Scissor</a>
+            </li>
+            <li>
+              <a href="/">Careers</a>
+            </li>
+            <li>
+              <a href="/">Partners</a>
+            </li>
+            <li>
+              <a href="/">Press</a>
+            </li>
+            <li>
+              <a href="/">Contact</a>
             </li>
           </ul>
           <ul className="col">
-            <li className="col-heading">Why Scissor?</li>
+            <li className="col-heading">Resources</li>
             <li>
-              <a href="/">Scissor 101</a>
+              <a href="/">Blog</a>
             </li>
             <li>
-              <a href="/">Integrations & API</a>
+              <a href="/">Resource Library</a>
             </li>
             <li>
-              <a href="/">Pricing</a>
+              <a href="/">App connectors</a>
             </li>
             <li>
-              <a href="/">Pricing</a>
+              <a href="/">Support</a>
             </li>
             <li>
-              <a href="/">Pricing</a>
-            </li>
-          </ul>
-          <ul className="col">
-            <li className="col-heading">Why Scissor?</li>
-            <li>
-              <a href="/">Scissor 101</a>
-            </li>
-            <li>
-              <a href="/">Integrations & API</a>
-            </li>
-            <li>
-              <a href="/">Pricing</a>
-            </li>
-            <li>
-              <a href="/">Pricing</a>
-            </li>
-            <li>
-              <a href="/">Pricing</a>
+              <a href="/">Trust Center</a>
             </li>
           </ul>
           <ul className="col">
-            <li className="col-heading">Why Scissor?</li>
+            <li className="col-heading">Features</li>
             <li>
-              <a href="/">Scissor 101</a>
+              <a href="/">Branded links</a>
             </li>
             <li>
-              <a href="/">Integrations & API</a>
+              <a href="/">Mobile links</a>
             </li>
             <li>
-              <a href="/">Pricing</a>
+              <a href="/">Campaign</a>
             </li>
             <li>
-              <a href="/">Pricing</a>
+              <a href="/">Management & analytics</a>
             </li>
             <li>
-              <a href="/">Pricing</a>
-            </li>
-          </ul>
-          <ul className="col">
-            <li className="col-heading">Why Scissor?</li>
-            <li>
-              <a href="/">Scissor 101</a>
-            </li>
-            <li>
-              <a href="/">Integrations & API</a>
-            </li>
-            <li>
-              <a href="/">Pricing</a>
-            </li>
-            <li>
-              <a href="/">Pricing</a>
-            </li>
-            <li>
-              <a href="/">Pricing</a>
+              <a href="/">QR code generation</a>
             </li>
           </ul>
           <ul className="col">
-            <li className="col-heading">Why Scissor?</li>
+            <li className="col-heading">Legal</li>
             <li>
-              <a href="/">Scissor 101</a>
+              <a href="/">Privacy Policy</a>
             </li>
             <li>
-              <a href="/">Integrations & API</a>
+              <a href="/">Cookie Policy</a>
             </li>
             <li>
-              <a href="/">Pricing</a>
+              <a href="/">Terms of service</a>
             </li>
             <li>
-              <a href="/">Pricing</a>
+              <a href="/">Acceptable Use Policy</a>
             </li>
             <li>
-              <a href="/">Pricing</a>
-            </li>
-          </ul>
-          <ul className="col">
-            <li className="col-heading">Why Scissor?</li>
-            <li>
-              <a href="/">Scissor 101</a>
-            </li>
-            <li>
-              <a href="/">Integrations & API</a>
-            </li>
-            <li>
-              <a href="/">Pricing</a>
-            </li>
-            <li>
-              <a href="/">Pricing</a>
-            </li>
-            <li>
-              <a href="/">Pricing</a>
+              <a href="/">Code of conduct</a>
             </li>
           </ul>
         </div>
