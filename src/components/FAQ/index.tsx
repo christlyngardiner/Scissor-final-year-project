@@ -69,7 +69,7 @@ export const FAQ = () => {
           </li>
           <li className="faqs-item">
             <div className="header">
-              <h3>What is a QR code and what can it do?</h3>
+              <h3>What is a QR code and what can it do? </h3>
               <PlusIcon />
             </div>
           </li>
