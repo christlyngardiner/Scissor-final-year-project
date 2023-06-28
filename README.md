@@ -18,4 +18,4 @@ The Src folder has the :
 Majority of the code work is in this folder and basically the home if you wish to modify or clone.
 
 Run code with `npm start`
-# Project-work-vue-
+# Typescript
