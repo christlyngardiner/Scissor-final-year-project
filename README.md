@@ -1,6 +1,13 @@
 # Scissor final project
+In today's world, it is very important to keep things short as possible and this applies to more concepts than you may realize. 
+Brief is the new black; scissor is a simple tool which makes URls short as possible.
 
-## Tests
+Requirements And Implementation Guide:
+-URL Shortening: Scissor allows users to shorten URLs by pasting a long URL into the scissor platform and a shorter Url gets automatically generated.
+The shortened Url is designed to be short as possible making it easy to share on social media or via various channels.
+-Custom URL: Scissor allows users to customize their shortened URLs. Users can choose their own custom domain name and customize the URL to reflect their brand.
 
-Run tests with `npm run test`
+
+
+Run code with `npm start`
 # Project-work-vue-
