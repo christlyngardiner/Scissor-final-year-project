@@ -7,7 +7,8 @@ Requirements And Implementation Guide:
 The shortened Url is designed to be short as possible making it easy to share on social media or via various channels.
 -Custom URL: Scissor allows users to customize their shortened URLs. Users can choose their own custom domain name and customize the URL to reflect their brand.
 
-
+Majority of the code was written in typescript.
+There is a lso a bit of html and css.
 
 Run code with `npm start`
 # Project-work-vue-
