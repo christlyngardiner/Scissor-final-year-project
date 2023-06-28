@@ -8,7 +8,14 @@ The shortened Url is designed to be short as possible making it easy to share on
 -Custom URL: Scissor allows users to customize their shortened URLs. Users can choose their own custom domain name and customize the URL to reflect their brand.
 
 Majority of the code was written in typescript.
-There is a lso a bit of html and css.
+There is a lso a bit of html and shell.
+
+The Src folder has the :
+-Assests
+-Components
+-Router
+-Style.
+Majority of the code work is in this folder and basically the home if you wish to modify or clone.
 
 Run code with `npm start`
 # Project-work-vue-
